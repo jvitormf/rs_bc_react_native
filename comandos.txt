@@ -1,0 +1,38 @@
+//adicionar eslint
+yarn add eslint -D
+
+//configurar eslint
+yarn eslint --init
+
+//renover package-locke.json e reinstalar com yarn
+yarn
+
+yarn add prettier eslint-config-prettier eslint-plugin-prettier babel-eslint -D
+
+//debugger react native
+yarn add reactotron-react-native
+
+//redirecionamento de porta para android
+adb reverse tcp:9090 tcp:9090
+
+//adicionar navigator e adicionar imports no mainactivity do android
+yarn add react-navigation react-native-gesture-handler react-native-reanimated
+
+//stck navigation mudou para
+yarn add react-navigation-stack
+
+//estilizavcao de componentes
+yarn add styled-components
+
+//adicionar icones, necessario fazer link
+yarn add react-native-vector-icons
+react-native link react-native-vector-icons
+
+//edicionar gerenciador de rotas
+yarn add axios
+
+//utilizar storage
+yarn add @react-native-community/async-storage
+
+//adicionar prop types
+yarn add prop-types
